@@ -1,3 +1,3 @@
 # odin-recipes
 
-What I learned so far:
+Here are some healthy high protein recipes with nutritional facts.
