@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TheOdinProject/css-exercises-odin/.idea/css-exercises-odin.iml" filepath="$PROJECT_DIR$/../TheOdinProject/css-exercises-odin/.idea/css-exercises-odin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/odin-recipes.iml" filepath="$PROJECT_DIR$/.idea/odin-recipes.iml" />
     </modules>
   </component>
