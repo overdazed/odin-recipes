@@ -9,15 +9,17 @@
 
 body {
     background-color: #21412F;
-    color: #0b3d91;
+    color: #21412F;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 h1 {
+    font-size: 36px;
     text-align: center;
-    color: #FBFCFC;
-    font-weight: 100:
+    color: #21412F;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -25,42 +27,117 @@ hr {
     border: 0.1em solid #FBFCFC; /* Adjust the color as needed */
 }
 
-.container {
-    /* margin: top/left/bottom/right*/
-    margin: 20px 0px 20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0px; /* Space between the buttons */
+p {
+    /*margin-bottom: 20px;*/
+    /*display: inline-block;*/
 }
 
-.cta-button {
-    background-color: #FBFCFC;
-    color: #21412F;
-    padding: 5px 5px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: lowercase;
-    font-weight: 600;
-    transition: background-color 0.4s ease;
-    width: 150px; /* Adjust the width as needed */
-    height: 50px; /* Adjust the height as needed */
+.recipe-card {
+    width: 800px;
     text-align: center;
-    line-height: 50px; /* This should match the height for vertical alignment */
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1em;
+    background-color: #FBFCFC;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 20px;
 }
 
-.cta-button:hover {
-    background-color: hsla(180, 2%, 99%, 0.3);
-    color: #fff;
-    transform: scale(0.95);
+.recipe-content {
+    text-align: left;
+    padding: 20px;
 }
 
-.cta-button:active {
-    background-color: #1f831f;
+.recipe-instruction {
+    list-style-type: none;
 }
+
+.ingredients-li {
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-bottom: 20px
+}
+
+.instructions {
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+.recipe-instruction h2 {
+    text-transform: uppercase;
+}
+
+.recipe-card.feature {
+    /*border: 4px solid black;*/
+    box-shadow: 20px 20px 40px 15px #0d2115;
+}
+
+.nutrition li {
+    list-style-type: none;
+}
+
+button {
+    background-color: #0d2115;
+    border: 1px solid #FBFCFC;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button a {
+    color: #FBFCFC;
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    margin: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #21412F;
+    transform: scale(1.1);
+}
+
+/*.container {*/
+/*    !* margin: top/left/bottom/right*!*/
+/*    margin: 20px 0px 20px 0px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    gap: 0px; !* Space between the buttons *!*/
+/*}*/
+
+/*.cta-button {*/
+/*    background-color: #FBFCFC;*/
+/*    color: #21412F;*/
+/*    padding: 5px 5px;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    text-decoration: none;*/
+/*    text-transform: lowercase;*/
+/*    font-weight: 600;*/
+/*    transition: background-color 0.4s ease;*/
+/*    width: 150px; !* Adjust the width as needed *!*/
+/*    height: 50px; !* Adjust the height as needed *!*/
+/*    text-align: center;*/
+/*    line-height: 50px; !* This should match the height for vertical alignment *!*/
+/*    box-sizing: border-box;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border-radius: 1em;*/
+/*}*/
+
+/*.cta-button:hover {*/
+/*    background-color: hsla(180, 2%, 99%, 0.3);*/
+/*    color: #fff;*/
+/*    transform: scale(0.95);*/
+/*}*/
+
+/*.cta-button:active {*/
+/*    background-color: #1f831f;*/
+/*}*/
