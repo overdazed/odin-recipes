@@ -1,11 +1,6 @@
-/**,*/
-/**::before,*/
-/**::after {*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-* {
-    outline: 2px solid red;
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,99 +9,55 @@
 body {
     font-family: Arial, Helvetica,sans-serif;
     background-color: #21412F;
-    /*color: #0b3d91;*/
-    /*text-align: center;*/
-}
-
-img {
-    width: 200px;
-}
-
-ul {
-    list-style-type: none;
-    /*list-style: none;*/
+    color: #0b3d91;
+    text-align: center;
 }
 
 h1 {
-    /*text-align: center;*/
     color: #FBFCFC;
-    /*font-weight: bold:*/
 }
 
-p {
-    margin-bottom: 20px;
-}
-
-.recipe-card {
-    width: 400px;
-    text-align: center;
-    background-color: red;
+hr {
+    width: 10%; /* Adjust this percentage to make it shorter or longer */
+    border: 0.1em solid #FBFCFC; /* Adjust the color as needed */
     margin: 20px auto;
-    padding: 50px;
 }
 
-.recipe-content {
-    text-align: left;
-    padding: 20px;
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Space between the buttons */
 }
 
-.recipe-card h2,
-.recipe-card a {
-    text-transform: uppercase;
-}
-
-/*.recipe-card.feature {*/
-/*    border-radius: 4px solid red;*/
-/*}*/
-
-.recipe-card a {
-    background-color: mediumvioletred;
-    color: #fff;
-    text-decoration: none;
-    margin: 20px;
+.cta-button {
+    background-color: #FBFCFC;
+    color: #21412F;
     padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 600;
+    transition: background-color 0.4s ease;
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    text-align: center;
+    line-height: 50px; /* This should match the height for vertical alignment */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
 }
 
-/*hr {*/
-/*    width: 20%; !* Adjust this percentage to make it shorter or longer *!*/
-/*    border: 0.1em solid #FBFCFC; !* Adjust the color as needed *!*/
-/*}*/
+.cta-button:hover {
+    background-color: hsla(180, 2%, 99%, 0.3);
+    color: #fff;
+    transform: scale(0.95);
+}
 
-/*.container {*/
-/*    margin-top: 20px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    gap: 20px; !* Space between the buttons *!*/
-/*}*/
-
-/*.cta-button {*/
-/*    background-color: #FBFCFC;*/
-/*    color: #21412F;*/
-/*    padding: 10px 20px;*/
-/*    border: none;*/
-/*    cursor: pointer;*/
-/*    text-decoration: none;*/
-/*    text-transform: lowercase;*/
-/*    font-weight: 600;*/
-/*    transition: background-color 0.4s ease;*/
-/*    width: 150px; !* Adjust the width as needed *!*/
-/*    height: 50px; !* Adjust the height as needed *!*/
-/*    text-align: center;*/
-/*    line-height: 50px; !* This should match the height for vertical alignment *!*/
-/*    box-sizing: border-box;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    border-radius: 1em;*/
-/*}*/
-
-/*.cta-button:hover {*/
-/*    background-color: hsla(180, 2%, 99%, 0.3);*/
-/*    color: #fff;*/
-/*    transform: scale(0.95);*/
-/*}*/
-
-/*.cta-button:active {*/
-/*    background-color: #1f831f;*/
-/*}*/
+.cta-button:active {
+    background-color: #1f831f;
+}
