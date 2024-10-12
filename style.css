@@ -14,6 +14,7 @@ body {
 }
 
 h1 {
+    padding-top: 20px;
     color: #FBFCFC;
 }
 
@@ -34,14 +35,14 @@ hr {
 .cta-button {
     background-color: #FBFCFC;
     color: #21412F;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     cursor: pointer;
     text-decoration: none;
     text-transform: lowercase;
     font-weight: 600;
     transition: background-color 0.4s ease;
-    width: 150px; /* Adjust the width as needed */
+    width: 180px; /* Adjust the width as needed */
     height: 50px; /* Adjust the height as needed */
     text-align: center;
     line-height: 50px; /* This should match the height for vertical alignment */

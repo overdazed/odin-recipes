@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, Helvetica,sans-serif;
+    background-color: #21412F;
+    color: #0b3d91;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    color: #FBFCFC;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 10%; /* Adjust this percentage to make it shorter or longer */
+    border: 0.1em solid #FBFCFC; /* Adjust the color as needed */
+    margin: 20px auto;
+}
+
+button {
+    background-color: #0d2115;
+    border: 1px solid #FBFCFC;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.4s ease;
+}
+
+button a {
+    color: #FBFCFC;
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    margin: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #21412F;
+    transform: scale(1.1);
+}
