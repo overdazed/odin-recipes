@@ -8,10 +8,13 @@
 }
 
 body {
-    background-color: #21412F;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://ideogram.ai/assets/image/lossless/response/iGV5GmhpQuOkWRZEC0AvpA');
+    background-repeat: repeat;
     color: #21412F;
     font-family: Arial, sans-serif;
     text-align: center;
+    background-size: 50%;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -24,7 +27,7 @@ h1 {
 
 hr {
     width: 20%; /* Adjust this percentage to make it shorter or longer */
-    border: 0.1em solid #FBFCFC; /* Adjust the color as needed */
+    border: 0.1em solid rgba(251, 252, 252, 0.8); /* Adjust the color as needed */
 }
 
 p {
@@ -35,7 +38,7 @@ p {
 .recipe-card {
     width: 800px;
     text-align: center;
-    background-color: #FBFCFC;
+    background-color: rgba(251, 252, 252, 0.8);
     margin: 20px auto;
     padding: 50px;
     border-radius: 20px;
@@ -80,7 +83,7 @@ p {
 
 button {
     background-color: #0d2115;
-    border: 1px solid #FBFCFC;
+    border: 1px solid rgba(251, 252, 252, 0.8);
     padding: 8px 16px;
     border-radius: 8px;
     cursor: pointer;
@@ -89,7 +92,7 @@ button {
 }
 
 button a {
-    color: #FBFCFC;
+    color: rgba(251, 252, 252, 0.8);
     text-decoration: none;
 }
 
