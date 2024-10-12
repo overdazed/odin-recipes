@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
 body {
     background-color: #21412F;
     color: #0b3d91;
