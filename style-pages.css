@@ -49,6 +49,9 @@ p {
 .recipe-content {
     text-align: left;
     padding: 20px;
+    position: relative;
+    width: 500px;
+    margin: auto;
 }
 
 .recipe-instruction {
